@@ -1,1 +1,182 @@
-TODO
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Mobile View">
+        <title>Case Study Mobile</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="./style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <div
+            class="mobileview">
+
+            <!-- Book Free Consultation -->
+            <nav class="navbar bookappointment fixed-top">
+                <a href="#">Book Free Consultation</a>
+            </nav>
+
+            <!-- Image Overlay -->
+            <div class="card text-white bannerimg">
+                <img class="card-img" src="./images/Screen Shot 2020-05-16 at 9 1.png" alt="Card image">
+
+                <div class="card-img-overlay">
+                    <nav class="navbar navbar-expand-lg navbar-dark">
+                        <a class="navbar-brand" href="#">
+                            <img src="./images/logo.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+                            ManaKnight
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Home
+                                        <span class="sr-only">(current)</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Features</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Pricing</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link disabled" href="#">Disabled</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <div class="card-center">
+                        <h5 class="card-title">Case Study BitCoin Average</h5>
+                        <p class="card-text">
+                            BitcoinAverage is a
+                            {{ describe who the client is}}
+                            who needed help with
+                            {{ very briefly describe what you did for them }}
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- without using bootstrap    -->
+            <!-- <div class="image-box">
+                                    <div 
+                                      class="image-box__background" 
+                                      style="--image-url: url('../images/Screen Shot 2020-05-16 at 9 1.png')"
+                                    ></div>
+                                    <div class="image-box__overlay"></div>
+                                    <div class="image-box__content">
+                                        <h5 class="card-title">Case Study BitCoin Average</h5>
+                                        <p class="card-text">
+                                            BitcoinAverage is a {{ describe who the client is}} who needed help with {{ very briefly describe what you did for them }}
+                                        </p>
+                                    </div>
+                                  </div> -->
+
+            <!-- Case Studies -->
+                <div class="container padding-class case-studies"> <div class="row">
+                    <div class="col-sm padding-class padding-class-btm">
+                        <h3 class="case-studies-heading">Client</h3>
+                        <a href="#" class="padding-class-btm">BitcoinAverage</a>
+                    </div>
+                    <div class="col-sm padding-class">
+                        <h3 class="case-studies-heading">Services</h3>
+                        <ul style="list-style-type:disc">
+                            <li>
+                                <span class="case-studies-text">Gadgets</span>
+                            </li>
+                            <li>
+                                <span class="case-studies-text">Accessories</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm padding-class">
+                        <h3 class="case-studies-heading">Technologies</h3>
+                        <button type="button" class="btn btn-primary btnround">HTML</button>
+                        <button type="button" class="btn btn-primary btnround">CSS</button>
+                        <button type="button" class="btn btn-primary btnround">React.js</button>
+                        <button type="button" class="btn btn-primary btnround">Flutter</button>
+                        <button type="button" class="btn btn-primary btnround">Javascript</button>
+                        <button type="button" class="btn btn-primary btnround">MongoDB</button>
+                    </div>
+                </div>
+                <hr>
+            </div>
+
+
+            <div class="container more-case-studies padding-50">
+                <div class="row">
+                    <div class="col-sm">
+                        <h2 class="more-case-studies-heading">Overview</h2>
+                        <p>Proin tincidunt lacus quis lectus elementum suscipit. Proin at varius velit. Cras at ligula quis erat mollis semper non in dolor. Ut at velit vitae quam rhoncus consectetur. Pellentesque finibus</p>
+                        <p>Proin tincidunt lacus quis lectus elementum suscipit. Proin at varius velit. Cras at ligula quis erat mollis semper non in dolor.</p>
+                        <hr>
+
+                    </div>
+
+                    <div class="col-sm padding-50">
+                        <h2 class="more-case-studies-heading">Challenge</h2>
+                        <p>Proin tincidunt lacus quis lectus elementum suscipit. Proin at varius velit. Cras at ligula quis erat mollis semper non in dolor. Ut at velit vitae quam rhoncus consectetur. Pellentesque finibus</p>
+                        <p>Proin tincidunt lacus quis lectus elementum suscipit. Proin at varius velit. Cras at ligula quis erat mollis semper non in dolor.</p>
+
+                        <img src="./images/challenge.svg" class="img-fluid img-centre" alt="Challenge Image 1">
+
+                        <img src="./images/BitcoinAverage-mobile 1.png" class="img-fluid img-centre more-case-studies-image" alt="Challenge Image 2">
+
+                    </div>
+
+                    <div class="col-sm test padding-50">
+                        <h2 class="more-case-studies-heading">Our Solution</h2>
+                        <p>Proin tincidunt lacus quis lectus elementum suscipit. Proin at varius velit. Cras at ligula quis erat mollis semper non in dolor. Ut at velit vitae quam rhoncus consectetur. Pellentesque finibus</p>
+                        <p>Proin tincidunt lacus quis lectus elementum suscipit. Proin at varius velit. Cras at ligula quis erat mollis semper non in dolor.</p>
+
+
+                        <div class="float-left">
+                            <img src="./images/Frame 5 1.png" class="img-fluid" alt="Challenge Image 1">
+                        </div>
+
+                        <div class="float-right">
+                            <img src="./images/Frame 5 1new.png" class="img-fluid" alt="Challenge Image 1">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card letusknow">
+                <div class="card-body">
+                    <img src="./images/Group 9.svg" class="img-centre">
+
+                    <h5 class="letusknow-title">Let's Talk</h5>
+                    <p class="letusknow-text">Ready to have your business problem solved? Tell us what you need and we will provide you with answers - we will do it for FREE!</p>
+
+                    <button type="button" class="btn">Book Free Discovery Call</button>
+
+                </div>
+            </div>
+
+            <hr class="more-case-studies-hr">
+            <div class="container padding-50">
+                <div class="row">
+                    <div
+                        class="col-sm">
+                        <!-- <hr> -->
+                        <h2>More Case Studies</h2>
+                        <img src="./images/more cases-narrow 1.png" class="img-fluid img-centre more-case-studies-image" alt="More cases-narrow Image 1">
+                        <span class="more-case-studies-text">view project&nbsp;&nbsp;<img src="./images/Arrow 1.png"></span>
+                        <img src="./images/more cases-narrow 2.png" class="img-fluid img-centre more-case-studies-image" alt="More cases-narrow Image 2">
+                        <span class="more-case-studies-text">view project&nbsp;&nbsp;<img src="./images/Arrow 1.png"></span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </body>
+</html>
