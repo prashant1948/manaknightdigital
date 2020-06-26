@@ -1349,6 +1349,9 @@ hr {
     color: #38476C;
     text-shadow: none;
   }
+  .text-third {
+    margin-left: 30px !important;
+  }
   .third-margin {
     margin-top: 10px;
   }
