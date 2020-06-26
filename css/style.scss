@@ -68,6 +68,19 @@ a.link-booking{
     text-decoration:underline;
   }
 }
+.heading-webapp{
+  display: flex;
+  padding-bottom: 20px;
+  img{
+    order: 1;
+    float: left;
+    margin-right: 20px;
+  }
+  h2{
+    order: 2;
+    float: right;
+  }
+}
 .footer-links li, .footer-links-headquarters
 {
   display:block
