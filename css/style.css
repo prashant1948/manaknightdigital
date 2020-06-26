@@ -93,6 +93,21 @@ a.link-booking {
   padding: 50px;
 }
 
+.footer-padding {
+  padding-left: 130px;
+  padding-right: 130px;
+}
+
+.header-padding {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.header-title-padding {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
 .footer-links, .footer-links-headquarters {
   padding-left: 0;
   list-style: none;
@@ -1404,6 +1419,15 @@ hr {
     text-align: center;
     color: #FFFFFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  }
+  .footer-padding {
+    padding: 0;
+  }
+  .header-padding {
+    padding: 0;
+  }
+  .header-title-padding {
+    padding: 0;
   }
   .letusknow-hr {
     margin: 10px;
