@@ -198,10 +198,8 @@ a.link-booking {
 
 .container-more-case-studies-img .left {
   position: absolute;
-  top: 10%;
+  top: 8%;
   left: 0;
-  padding-left: 20px;
-  padding-right: 20px;
   -webkit-transform: translateX(0);
           transform: translateX(0);
 }
@@ -212,10 +210,8 @@ a.link-booking {
 
 .container-more-case-studies-img .right {
   position: absolute;
-  top: 10%;
-  left: 56.7%;
-  padding-left: 20px;
-  padding-right: 20px;
+  top: 8%;
+  left: 61%;
   -webkit-transform: translateX(0);
   transform: translateX(0);
 }
@@ -1047,11 +1043,6 @@ hr {
   text-shadow: none;
 }
 
-.btn-navbar:hover {
-  background: #005BF2;
-  color: #FFFFFF;
-}
-
 .btn-see-all:hover {
   background: #FFFFFF;
   color: #005BF2;
@@ -1294,12 +1285,14 @@ hr {
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
             order: 1;
+    width: 28px;
   }
   .services-list-ul li > span {
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2;
     text-align: left !important;
+    font-size: 16px !important;
   }
   .mobile-padding-none {
     padding: 0;

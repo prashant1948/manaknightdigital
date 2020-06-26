@@ -128,10 +128,10 @@ a{
 }
 .left{
   position: absolute;
-  top: 10%;
+  top: 8%;
   left:0;
-  padding-left: 20px;
-  padding-right: 20px;
+  // padding-left: 20px;
+  // padding-right: 20px;
   transform: translateX(0);
   .btn-more-case-studies{
     margin-top: 80px;
@@ -139,10 +139,10 @@ a{
 }
 .right{
     position: absolute;
-    top: 10%;
-    left: 56.7%;
-    padding-left: 20px;
-    padding-right: 20px;
+    top: 8%;
+    left: 61%;
+    // padding-left: 20px;
+    // padding-right: 20px;
     -webkit-transform: translateX(0);
     transform: translateX(0);
     .btn-more-case-studies{
@@ -643,10 +643,7 @@ letter-spacing: -0.01em;
   letter-spacing: -0.01em;
   @include text-css(normal !important, bold !important, 32px !important, 50px !important, #121728, none);
 }
-.btn-navbar:hover{
-  background: #005BF2;
-  color: #FFFFFF;
-}
+
 .btn-see-all:hover{
   background: #FFFFFF;
   color: #005BF2;
@@ -810,10 +807,12 @@ height: none;
       }
       li>img{
         order: 1;
+        width: 28px;
       }
       li>span{
         order: 2;
         text-align: left !important;
+        font-size: 16px !important;
       }
     }
 
