@@ -48,7 +48,7 @@ $BGBlue: #012B71;
 }
 
 .services-text{
-  margin-left: 20px;
+  margin-left: 30px;
   letter-spacing: 0.01em;
   @include text-css(normal !important, normal !important, 22px !important,35px !important, #38476C, none) ;
 }
@@ -56,6 +56,9 @@ a.link-booking{
   text-decoration: underline;
   letter-spacing: 0.04em;
   @include text-css(normal, 500, 22px, 32px, #FFFFFF, none);
+}
+.desktp-page-padding{
+  padding: 50px;
 }
 .footer-links, .footer-links-headquarters
 {
@@ -186,7 +189,7 @@ a{
     order: 0;
     align-self: center;
     margin: 10px 0px;
-    border: none;
+    border: 1px solid #005BF2;
     @include text-css(normal, 600, 18px, 24px, #EAF0FF, none);
   }
     .btn-services{
@@ -320,6 +323,7 @@ letter-spacing: -0.01em;
   letter-spacing: 0.04em;
   display: block;
 }
+
 .nav-menu{
   margin-right: 15px;
 }
@@ -369,7 +373,7 @@ letter-spacing: -0.01em;
   padding-bottom: 40%;
   box-sizing: border-box;
   .btn-more-case-studies{
-    margin-top: 80px !important;
+    margin-top: 50px !important;
   }
 }
 
@@ -384,7 +388,9 @@ letter-spacing: -0.01em;
   box-sizing: border-box;
 }
 
-
+.hr-footer{
+  display: none;
+}
 .about-background-img{  
   background: url("../images/about-background-img.svg") no-repeat left -10px;
 }
@@ -409,7 +415,7 @@ letter-spacing: -0.01em;
 .solutions-heading{
   text-align: left !important;
   letter-spacing: -0.01em;
-  @include text-css(normal !important, bold !important, 30px !important,60px !important, #121728, none) ;
+  @include text-css(normal !important, bold !important, 30px !important,40px !important, #121728, none) ;
 }
 
 .services-icon-hr{
@@ -443,6 +449,9 @@ letter-spacing: -0.01em;
 }
 .banner-img-url-services{
   background: url('../images/services-desktop-background-img.png') center center no-repeat;
+}
+.banner-img-url-process{
+  background: url('../images/Home-background-img.png') center center no-repeat;
 }
 
 .banner-img{
@@ -580,6 +589,7 @@ letter-spacing: -0.01em;
     padding-top: 20px;
     @include text-css(normal, 900, 14px, 26px, #EAF0FF, none);
   }
+  
   .letusknow-text{
     text-align: left !important;
     letter-spacing: 0.01em;
@@ -604,7 +614,13 @@ letter-spacing: -0.01em;
   padding-top: 20px;
   @include text-css(normal, normal, 22px, 35px, #38476C, none);
 }
-
+.how-page-consult{
+  @include text-css(normal, 900, 14px, 26px, #EAF0FF, none);
+}
+.quote-btn{
+  margin: 0 auto;
+  display: flex;
+}
 .btn-how-page{
     margin: 0 auto;
     display: flex;
@@ -623,18 +639,45 @@ letter-spacing: -0.01em;
   margin-left: 20px;
   @include text-css(normal !important, bold !important, 30px !important, 60px !important, #1D2D35, none);
 }
-
+.process-list{
+  letter-spacing: -0.01em;
+  @include text-css(normal !important, bold !important, 32px !important, 50px !important, #121728, none);
+}
+.btn-navbar:hover{
+  background: #005BF2;
+  color: #FFFFFF;
+}
+.btn-see-all:hover{
+  background: #FFFFFF;
+  color: #005BF2;
+}
+.btn-services:hover{
+  background: #005BF2;
+  color: #FFFFFF;
+}
+.text-third{
+  margin-left: 20px !important;
+}
+.quote-center{
+  text-align:center !important;
+}
 @include media-breakpoint-down(xs) {
   .letusknow{
     .letusknow-title{
       text-align: center !important;
     }
     }
+  //   .more-case-studies-heading {
+
+  // }
   .footer-padding-left{
     margin-left: 10px;
   }
   .mobile-padding-none{
     padding: 0 !important;
+  }
+  .mobile-margin-none{
+    margin: 0 !important;
   }
   .mobile-view{
     display: block !important;
@@ -676,11 +719,11 @@ letter-spacing: -0.01em;
       @include text-css(normal, normal, 16px, 24px, #38476C, none);
       letter-spacing: 0.01em;
     }
-  
+
     .list-about-text{
-      text-align: left !important;
-      @include text-css(normal !important, normal !important, 20px !important, 35px !important, #38476C, none);
       letter-spacing: 0.01em;
+      text-align: left !important;
+      @include text-css(normal, normal !important, 16px !important, 28px !important, #38476C, none);
     }
     .btnround{
       border-radius: 50px;
@@ -698,10 +741,14 @@ letter-spacing: -0.01em;
   .img-services{
 height: none;
   }
-
-  .btn-navbar{
-    display: none;
+  .process-list{
+    font-size: 26px !important;
+    margin-left: 5px;
   }
+  .process-content{
+    margin-left: 10px;
+  }
+
   .banner-img{
       margin-top: 50px;
       height: auto;
@@ -775,7 +822,7 @@ height: none;
     }
 
     .consultation-text-mobile{
-      padding: 20px;
+      padding: 30px;
     }
    
 .more-case-studies{
@@ -788,8 +835,15 @@ height: none;
   p{
     letter-spacing: 0.01em;
     text-align: left !important;
-    @include text-css(normal, normal, 16px, 28px, #38476C, none);
+    @include text-css(normal, normal !important, 16px !important, 28px !important, #38476C, none);
   }
+}
+
+.third-margin{
+  margin-top: 10px;
+}
+.second-div{
+  margin-top: -40px;
 }
 .text-overlay-home-image-1 {
   padding-bottom: 117%;
@@ -816,10 +870,10 @@ height: none;
 }
 
 .banner-title{
-  @include text-css(normal, bold, 36px, 54px, #FFFFFF,  0px 4px 4px rgba(0, 0, 0, 0.1));
+  @include text-css(normal, bold, 28px, 44px, #FFFFFF,  0px 4px 4px rgba(0, 0, 0, 0.1));
 }
 .banner-text{
-  @include text-css(normal, normal, 16px, 34px, #FFFFFF,  0px 4px 4px rgba(0, 0, 0, 0.1));
+  @include text-css(normal, normal, 10px, 20px, #FFFFFF,  0px 4px 4px rgba(0, 0, 0, 0.1));
 }
 
 .letusknow-hr{
@@ -829,10 +883,10 @@ height: none;
 }
 
 .letusknow{
-  margin: 10px;
+  margin: 15px;
   .btn{
     width: 100%;
-    @include text-css(normal, 600, 16px, 24px, #121728, none);
+    @include text-css(normal, 600, 13px, 24px, #121728, none);
   }
   .letusknow-title{
     text-align: center;
@@ -856,6 +910,15 @@ height: none;
   @include text-css(normal, normal, 14px, 35px, #005BF2, none);
 }
 
+.how-page-para{
+  display: flex;
+  letter-spacing: 0.01em;
+  text-align: left !important;
+  @include text-css(normal, normal, 16px, 28px, #38476C, none);
+}
+.how-page-span{
+  margin-left: 10px;
+}
 .more-case-studies-image{
   width: 100%;
 }
@@ -871,23 +934,28 @@ hr{
 .mobile-padding-50{
   margin-top: 50px;
 }
-
+.copyright-footer{
+  display: flex;
+  justify-content: center;
+}
+.mobile-padding-100{
+  margin-top: 100px;
+}
 .margin-top-100{
   margin-top: 100px;
 }
-
+.heading-work{
+  text-align: left !important;
+}
 .margin-top-none{
   margin-top: 0px !important;
 }
 .index-breadcrumb{
   display: none;
 }
-.link-booking{
-  display: none;
-}
 .process-heading{
   letter-spacing: -0.01em;
-  @include text-css(normal, bold, 32px, 52px, #121728, none);
+  @include text-css(normal, bold, 32px, 40px, #121728, none);
 }
 .letusknow{
   margin-top: 0px !important;
@@ -903,6 +971,22 @@ hr{
 }
 .padding-bottom-none{
   padding-bottom: unset;
+}
+.padding-top-none{
+  padding-top: unset;
+}
+.footer-order{
+  display: flex;
+  flex-direction: column-reverse;
+}
+.hr-footer{
+    opacity: 1;
+    border-top: 2px solid white;
+    width: 90%;
+    display: block;
+}
+.desktp-page-padding{
+  padding: 10px;
 }
 }
 @media only screen and (min-width: 323px) and (max-width:332px){
@@ -949,7 +1033,7 @@ hr{
 
 @media only screen and (min-width: 356px) and (max-width: 374px){
   .banner-img-url-home {
-    padding-top: 320px;
+    padding-top: 250px;
     }
   .banner-img-center{
     margin-top: 100px;
@@ -957,36 +1041,60 @@ hr{
   .banner-home-center{
     margin-top: 70px;
   }
+  .banner-how-center{
+    margin-top: 100px;
+  }
+  .banner-process-center{
+    margin-top: 100px;
+  }
   .banner-img-center-case-study{
-    margin-top: 65px;
+    margin-top: 90px;
   }
   .slick-slide img {
     margin-left: 190px;
   }
   .banner-img-url-services{
-    padding-top: 300px;
+    padding-top: 250px;
   }
   .banner-img-center-services{
-    margin-top: 50px;
+    margin-top: 80px;
   }
+  .banner-img-url-contact {
+    padding-top: 260px;
+}
+.banner-img-url-process {
+  padding-top: 250px;
+}
 
 }
 
 @media only screen and (min-width: 375px) and (max-width: 385px){
   .banner-img-center{
-    margin-top: 50px;
+    margin-top: 80px;
   }
   .banner-home-center{
     margin-top: 80px;
   }
+  .banner-how-center{
+    margin-top: 100px;
+  }
+  .banner-process-center{
+    margin-top: 100px;
+  }
   .banner-img-center-case-study{
-    margin-top: 75px;
+    margin-top: 100px;
   }
   .banner-img-url-home {
-    padding-top: 350px;
+    padding-top: 250px;
+}
+.banner-img-url-process {
+  padding-top: 250px;
 }
   .banner-img-url-services{
-    padding-top: 300px;
+    padding-top: 250px;
+  }
+  .banner-img-url-contact{
+    padding-top: 180px;
   }
 
 }
@@ -996,22 +1104,36 @@ hr{
   .banner-img-center{
     margin-top: 100px;
   }
+  .banner-img-center{
+    margin-top: 140px;
+  }
   .banner-home-center{
     margin-top: 120px;
+  }
+  .banner-how-center{
+    margin-top: 170px;
+  }
+  .banner-process-center{
+    margin-top: 150px;
   }
   .slick-slide img {
     margin-left: 245px;
   }
   .banner-img-url-home {
-    padding-top: 350px;
+    padding-top: 320px;
   }
   .banner-img-url-services{
-    padding-top: 300px;
+    padding-top: 320px;
   }
   .banner-img-center-services{
-    margin-top: 100px;
+    margin-top: 120px;
   }
-  
+  .banner-img-url-contact {
+    padding-top: 250px;
+}
+.banner-img-url-process {
+  padding-top: 320px;
+}
 }
 
 @media only screen and (min-width: 421px) and (max-width: 460px)
@@ -1054,22 +1176,38 @@ hr{
   }
 }
 
+@media only screen and (min-width: 750px) and (max-width: 1024px)
+  {
+  .banner-home-center{
+    margin-top: 120px;
+  }
+  .banner-img-center{
+    margin-top: 150px;
+  }
+}
+
 @media only screen and (max-width: 323px)
   {
       .banner-img-center{
         margin-top: 80px;      
       }
       .banner-img-center-services{
-        margin-top: 40px;      
+        margin-top: 50px;      
       }
       .banner-img-url-home {
-        padding-top: 340px;
+        padding-top: 200px;
       }
       .banner-home-center{
-        margin-top: 10px;      
+        margin-top: 40px;      
+      }
+      .banner-how-center{
+        margin-top: 60px;      
+      }
+      .banner-process-center{
+        margin-top: 70px;      
       }
       .banner-img-center-case-study{
-        margin-top: 40px;      
+        margin-top: 75px;      
       }
       .slick-slide img {
         display: block;
@@ -1077,9 +1215,14 @@ hr{
         width: 145px;
     }
     .banner-img-url-services{
-      padding-top: 300px;
+      padding-top: 200px;
     }
-    
+    .banner-img-url-contact{
+      padding-top: 250px;
+    }
+    .banner-img-url-process {
+      padding-top: 200px;
+    }
   }
 
 @media only screen and (max-width: 374px)
