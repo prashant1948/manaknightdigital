@@ -94,8 +94,8 @@ a.link-booking {
 }
 
 .footer-padding {
-  padding-left: 130px;
-  padding-right: 130px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .header-padding {
@@ -104,8 +104,8 @@ a.link-booking {
 }
 
 .header-title-padding {
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 95px;
+  padding-right: 95px;
 }
 
 .footer-links, .footer-links-headquarters {
@@ -545,6 +545,10 @@ hr {
   margin-top: 200px;
 }
 
+.banner-img-center-homepage {
+  margin-top: 125px;
+}
+
 .home-img-center {
   margin-top: 200px;
 }
@@ -685,6 +689,10 @@ hr {
   text-align: left !important;
 }
 
+.contact-heading {
+  margin-left: 10px;
+}
+
 .services-ul {
   margin-left: 18px !important;
 }
@@ -717,6 +725,12 @@ hr {
 .contact-btn {
   background: #012B71;
   color: #FFFFFF;
+  border: 1px solid #012B71;
+}
+
+.contact-btn:hover {
+  background: #FFFFFF;
+  color: #012B71;
 }
 
 .process-background-img {
@@ -749,7 +763,7 @@ hr {
   border: none;
   background-size: cover;
   background-attachment: fixed;
-  padding-bottom: 56.25%;
+  padding-bottom: 50%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -1000,6 +1014,9 @@ hr {
 }
 
 .how-page-para {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   text-align: left !important;
   letter-spacing: 0.01em;
   padding-top: 20px;
@@ -1096,6 +1113,11 @@ hr {
 
 .quote-center {
   text-align: center !important;
+}
+
+.how-page-span {
+  margin-left: 20px;
+  margin-top: 10px;
 }
 
 @media (max-width: 575.98px) {
@@ -1497,14 +1519,15 @@ hr {
     font-family: 'Inter';
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
-    line-height: 28px;
+    font-size: 17px;
+    line-height: 18px;
     text-align: center;
     color: #38476C;
     text-shadow: none;
   }
   .how-page-span {
     margin-left: 10px;
+    margin-top: 10px;
   }
   .more-case-studies-image {
     width: 100%;
@@ -1796,7 +1819,7 @@ hr {
     margin-top: 40px;
   }
   .banner-how-center {
-    margin-top: 60px;
+    margin-top: 70px;
   }
   .banner-process-center {
     margin-top: 70px;

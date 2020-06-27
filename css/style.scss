@@ -61,16 +61,16 @@ a.link-booking{
   padding: 50px;
 }
 .footer-padding{
-  padding-left: 130px;
-  padding-right: 130px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 .header-padding{
   padding-left: 200px;
   padding-right: 200px;
 }
 .header-title-padding{
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 95px;
+  padding-right: 95px;
 }
 .footer-links, .footer-links-headquarters
 {
@@ -289,7 +289,6 @@ letter-spacing: -0.01em;
     letter-spacing: 0.01em;
   }
 
-
   .list-about-text{
     text-align: left !important;
     @include text-css(normal, normal, 20px, 35px, #38476C, none);
@@ -325,6 +324,9 @@ letter-spacing: -0.01em;
 
 .banner-img-center{
   margin-top: 200px ;
+}
+.banner-img-center-homepage{
+  margin-top: 125px ;
 }
 
 .home-img-center{
@@ -432,6 +434,9 @@ letter-spacing: -0.01em;
 .services-heading{
   text-align: left !important;
 }
+.contact-heading{
+  margin-left: 10px;
+}
 
 .services-ul{
   margin-left: 18px !important;
@@ -456,6 +461,11 @@ letter-spacing: -0.01em;
 .contact-btn{
   background: $BGBlue;
   color: #FFFFFF;
+  border: 1px solid $BGBlue;
+}
+.contact-btn:hover{
+  background: #FFFFFF;
+  color: $BGBlue;;
 }
 
 .process-background-img{
@@ -486,7 +496,7 @@ letter-spacing: -0.01em;
   border: none;
   background-size: cover;
   background-attachment: fixed;
-  padding-bottom: 56.25%;
+  padding-bottom: 50%;
   box-sizing: border-box;
   .bitcoin-banner-img{
     display: none;
@@ -634,6 +644,7 @@ letter-spacing: -0.01em;
   @include text-css(normal, normal, 18px, 35px, #FFFFFF, none);
 }
 .how-page-para{
+  display: flex;
   text-align: left !important;
   letter-spacing: 0.01em;
   padding-top: 20px;
@@ -682,6 +693,10 @@ letter-spacing: -0.01em;
 }
 .quote-center{
   text-align:center !important;
+}
+.how-page-span{
+  margin-left: 20px;
+  margin-top: 10px;
 }
 @include media-breakpoint-down(xs) {
   .letusknow{
@@ -951,10 +966,11 @@ height: none;
   display: flex;
   letter-spacing: 0.01em;
   text-align: left !important;
-  @include text-css(normal, normal, 16px, 28px, #38476C, none);
+  @include text-css(normal, normal, 17px, 18px, #38476C, none);
 }
 .how-page-span{
   margin-left: 10px;
+  margin-top: 10px;
 }
 .more-case-studies-image{
   width: 100%;
@@ -1238,7 +1254,7 @@ hr{
         margin-top: 40px;      
       }
       .banner-how-center{
-        margin-top: 60px;      
+        margin-top: 70px;      
       }
       .banner-process-center{
         margin-top: 70px;      
