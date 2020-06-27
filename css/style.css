@@ -757,6 +757,10 @@ hr {
   background: url("../images/Home-background-img.png") center center no-repeat;
 }
 
+.card-quote {
+  width: 100%;
+}
+
 .banner-img {
   display: block;
   border-radius: 0px;
@@ -1133,8 +1137,15 @@ hr {
   .mobile-margin-none {
     margin: 0 !important;
   }
+  .quote-btn {
+    font-size: 11px !important;
+  }
   .mobile-view {
     display: block !important;
+  }
+  .how-page-text {
+    font-size: 16px;
+    line-height: 28px;
   }
   .desktop-view {
     display: none;
@@ -1587,8 +1598,18 @@ hr {
     width: 220px;
   }
   .slick-slider {
+    margin-top: 30px;
     padding: 10px;
     overflow: hidden;
+  }
+  .flex-display {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
   }
   .padding-bottom-none {
     padding-bottom: unset;
