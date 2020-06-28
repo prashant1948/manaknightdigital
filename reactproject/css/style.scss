@@ -1,0 +1,282 @@
+@import "../../node_modules/bootstrap/scss/_functions.scss";
+@import "../../node_modules/bootstrap/scss/_variables.scss";
+@import "../../node_modules/bootstrap/scss/mixins/_breakpoints.scss";
+
+@mixin text-css($style, $weight, $size, $height, $space, $color) {
+  font-family: 'Inter';
+  font-style: $style;
+  font-weight: $weight;
+  font-size: $size;
+  line-height: $height;
+  letter-spacing: $space;
+  color: $color;
+}
+
+$MKDColor: #FFFFFF;
+$MKDTextColor: #38476C;
+$BGBlue: #003183;
+$MKDBkg: #E5E5E5;
+
+.navbar-bkg-color{
+    background: $BGBlue;
+    .logo-text{
+        margin-right: 10px;
+    }
+    a{
+        color: $MKDColor;
+        @include text-css(normal, normal, 22px, 18px, 0.01em, $MKDColor);
+    }
+    .logo-quote{
+        margin-left: 10px;
+        @include text-css(normal, normal, 16px, 35px, 0.01em, $MKDColor);
+    }
+    .platform-text-bold{
+        @include text-css(normal, bold, 22px, 35px, 0.01em, $MKDColor);
+    }
+    .platform-text{
+        @include text-css(normal, 500, 14px, 35px, 0.02em, $MKDColor);
+    }
+}
+a{
+    color: unset;
+}
+
+.platfrom-background{
+    background: $MKDBkg;
+}
+
+.container-padding{
+    padding: 50px;
+}
+
+.items-50{
+    margin-top: 50px;
+}
+.items-30{
+    margin-top: 30px;
+}
+.custom-control{
+    margin-top: 10px;
+}
+
+.items-background{
+    background: $MKDColor;
+    padding: 50px;
+    border-radius: 4px;
+}
+
+.maintenance-text{
+    @include text-css(normal, 600, 18px, 22px, 0.01em, #38476C);
+    text-decoration: underline;
+}
+    a:hover{
+        text-decoration: none;
+    }
+
+.tab-head-active{
+    @include text-css(normal, bold, 14px, 35px, 0.05em, #005BF2); 
+}
+
+hr{
+   border: 1px solid #38476C;
+}
+
+.hr-navbar{
+    border: 1px solid $MKDColor; 
+}
+
+.card-head.active>.card{
+border: 1px solid #00c853;
+}
+
+.round {
+    position: relative;
+  }
+  
+  .round label {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 28px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 28px;
+  }
+  
+  .round label:after {
+    border: 2px solid #fff;
+    border-top: none;
+    border-right: none;
+    content: "";
+    height: 6px;
+    left: 7px;
+    opacity: 0;
+    position: absolute;
+    top: 8px;
+    transform: rotate(-45deg);
+    width: 12px;
+  }
+  
+  .round input[type="checkbox"] {
+    visibility: hidden;
+  }
+  
+  .round input[type="checkbox"]:checked + label {
+    background-color: #00c853;
+    border-color: #00c853;
+  }
+  
+  .round input[type="checkbox"]:checked + label:after {
+    opacity: 1;
+  }
+
+  .hidden{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+.platforms{
+    display: none;
+}
+.platforms:target{
+    display:block !important;
+}
+
+.text-delivery{
+    @include text-css(normal, normal, 15px, 22px, 0.01em, #38476C);
+}
+ 
+.btn-platform{
+    border-radius: 2px;
+    background-color: #005BF2;
+    @include text-css(normal, 600, 16px, 24px, 0.04em, #EAF0FF);
+}
+
+.btn-delivery{
+    width: 80%;
+    border-radius: 2px;
+    background-color: #005BF2;
+    @include text-css(normal, 600, 16px, 24px, 0.04em, #EAF0FF);
+}
+.text-center{
+    text-align: center;
+}
+.mobile-view{
+    display: none;
+}
+
+.nav-pills{
+    li.active>a{
+        @include text-css(normal, bold, 14px, 35px, 0.05em, #005BF2);
+    }
+
+    li>a::after{
+        content: '';
+        display: block;
+        padding-top: 13px;
+        margin: 0 auto;
+        width: 70%;
+        border-bottom: 2px solid transparent;
+        transform: translateY(0px);
+        transition: all 0.3s ease-in-out 0s;
+      }
+      li.active>a::after{
+        border-bottom: 4px solid #005BF2;
+        transform: translateY(19px);
+    }
+}
+
+.back-step{
+    img{
+        float: left;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+    span{
+        float: right;
+        text-decoration: underline;
+        @include text-css(normal, 600, 14px, 35px, 0.05em, #005BF2);
+    }
+}
+.delivery-title{
+    @include text-css(normal, 600, 18px, 22px, 0.01em, #38476C);
+}
+
+@include media-breakpoint-down(xs) {
+    .mobile-padding-none{
+        padding: 0px;
+    }
+    .mobile-margin-top-none{
+        margin-top: 0px;
+    }
+    .mobile-margin-none{
+        margin: 0 !important;
+    }
+    .mobile-container-padding{
+        padding: 30px;
+    }
+    .card{
+        margin-bottom: 20px;
+    }
+    .mobile-items-30{
+        margin-top: 30px;
+    }
+    .desktop-view{
+        display: none;
+    }
+    .logo-text{
+        margin-top: 10px;
+    }
+    .mobile-view{
+        display: block;
+    }
+    .mobile-text-left{
+        text-align: left !important;
+    }
+    .platform-text-bold{
+        font-size: 18px !important;
+    }
+    .navbar-brand{
+        display: flex;
+        img{
+            margin-right: 10px;
+        }
+    }
+    li.active>a::after{
+        border-bottom: unset !important;
+        transform: unset;
+    }
+    .nav-fill .nav-item {
+        width: 50%;
+    }
+    .btn-platform{
+        float: unset !important;
+        display: flex;  
+        margin: 0 auto;      
+    }
+    .nav-pills li.active > a {
+        font-size: 17px !important;
+    }
+    li.active>a{
+        font-size: 17px !important;
+    }
+    .maintenance-text{
+        font-size: 15px !important;
+    }
+    .delivery-title {
+        font-size: 15px !important;
+    }
+    .text-delivery{
+        font-size: 13px !important;
+    }
+    .btn-delivery{
+        width: unset;
+        font-size: 14px !important;
+    }
+}
+
