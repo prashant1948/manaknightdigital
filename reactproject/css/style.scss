@@ -172,7 +172,7 @@ border: 1px solid #00c853;
 
 .nav-pills{
     li.active>a{
-        @include text-css(normal, bold, 14px, 35px, 0.05em, #005BF2);
+        @include text-css(normal, bold, 14px, 27px, 0.05em, #005BF2);
     }
 
     li>a::after{
