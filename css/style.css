@@ -294,7 +294,7 @@ a.link-booking {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 14px;
+  line-height: unset;
   text-align: center;
   color: #38476C;
   text-shadow: none;
@@ -395,6 +395,7 @@ hr {
 
 .consultation-text {
   padding: 100px;
+  padding: 80px;
 }
 
 .process-heading {
@@ -733,6 +734,10 @@ hr {
   color: #012B71;
 }
 
+.mobile-padding-10 {
+  padding: unset;
+}
+
 .process-background-img {
   background: url("../images/about-background-img.svg") no-repeat !important;
 }
@@ -970,7 +975,7 @@ hr {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 900;
-  font-size: 14px;
+  font-size: 25px;
   line-height: 26px;
   text-align: center;
   color: #EAF0FF;
@@ -1128,6 +1133,9 @@ hr {
   .letusknow .letusknow-title {
     text-align: center !important;
   }
+  .heading-webapp h2 {
+    margin: auto;
+  }
   .footer-padding-left {
     margin-left: 10px;
   }
@@ -1139,6 +1147,7 @@ hr {
   }
   .quote-btn {
     font-size: 11px !important;
+    width: unset !important;
   }
   .mobile-view {
     display: block !important;
@@ -1467,9 +1476,6 @@ hr {
     margin-top: 70px;
     padding-top: 30px;
   }
-  .letusknow {
-    margin: 15px;
-  }
   .letusknow .btn {
     width: 100%;
     font-family: 'Inter';
@@ -1555,6 +1561,9 @@ hr {
   .mobile-padding-50 {
     margin-top: 50px;
   }
+  .mobile-padding-10 {
+    padding: 10px;
+  }
   .copyright-footer {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1634,6 +1643,9 @@ hr {
   }
   .desktp-page-padding {
     padding: 10px;
+  }
+  .desktop-page-padding {
+    padding: 15px !important;
   }
 }
 

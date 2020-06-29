@@ -194,7 +194,7 @@ a{
 
 .text-more-case-studies-btn{
   letter-spacing: 0.01em;
-  @include text-css(normal, normal, 14px, 14px, #38476C, none);
+  @include text-css(normal, normal, 14px, unset, #38476C, none);
   flex: none;
   order: 0;
   align-self: center;
@@ -243,6 +243,7 @@ letter-spacing: -0.01em;
 }
 .consultation-text{
   padding: 100px;
+  padding: 80px;
 }
 
 .process-heading{
@@ -467,7 +468,9 @@ letter-spacing: -0.01em;
   background: #FFFFFF;
   color: $BGBlue;;
 }
-
+.mobile-padding-10{
+  padding: unset;
+}
 .process-background-img{
   background: url("../images/about-background-img.svg") no-repeat !important;
 }
@@ -624,7 +627,7 @@ letter-spacing: -0.01em;
     text-align: left !important;
     letter-spacing: 0.1em;
     padding-top: 20px;
-    @include text-css(normal, 900, 14px, 26px, #EAF0FF, none);
+    @include text-css(normal, 900, 25px, 26px, #EAF0FF, none);
   }
   
   .letusknow-text{
@@ -706,6 +709,9 @@ letter-spacing: -0.01em;
       text-align: center !important;
     }
     }
+    .heading-webapp h2{
+      margin: auto;
+    }
   //   .more-case-studies-heading {
 
   // }
@@ -720,6 +726,7 @@ letter-spacing: -0.01em;
   }
   .quote-btn{
     font-size: 11px !important;
+    width: unset !important;
   }
 
   .mobile-view{
@@ -872,6 +879,7 @@ height: none;
 
     .consultation-text-mobile{
       padding: 30px;
+      // padding: 20px;
     }
    
 .more-case-studies{
@@ -945,7 +953,7 @@ height: none;
 }
 
 .letusknow{
-  margin: 15px;
+  // margin: 15px;
   .btn{
     width: 100%;
     @include text-css(normal, 600, 13px, 24px, #121728, none);
@@ -996,6 +1004,9 @@ hr{
 }
 .mobile-padding-50{
   margin-top: 50px;
+}
+.mobile-padding-10{
+  padding: 10px;
 }
 .copyright-footer{
   display: flex;
@@ -1055,6 +1066,9 @@ hr{
 }
 .desktp-page-padding{
   padding: 10px;
+}
+.desktop-page-padding{
+  padding: 15px !important;
 }
 }
 @media only screen and (min-width: 323px) and (max-width:332px){
