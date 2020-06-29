@@ -1,6 +1,6 @@
-@import "../../node_modules/bootstrap/scss/_functions.scss";
-@import "../../node_modules/bootstrap/scss/_variables.scss";
-@import "../../node_modules/bootstrap/scss/mixins/_breakpoints.scss";
+@import "../../../node_modules/bootstrap/scss/_functions.scss";
+@import "../../../node_modules/bootstrap/scss/_variables.scss";
+@import "../../../node_modules/bootstrap/scss/mixins/_breakpoints.scss";
 
 @mixin text-css($style, $weight, $size, $height, $space, $color) {
   font-family: 'Inter';
@@ -69,7 +69,8 @@ a{
     @include text-css(normal, 600, 18px, 22px, 0.01em, #38476C);
     text-decoration: underline;
 }
-    a:hover{
+
+a:hover{
         text-decoration: none;
     }
 
@@ -171,8 +172,8 @@ border: 1px solid #00c853;
 }
 
 .nav-pills{
-    li.active>a{
-        @include text-css(normal, bold, 14px, 27px, 0.05em, #005BF2);
+    li>a.active{
+        @include text-css(normal, bold, 14px, 29px, 0.05em, #005BF2);
     }
 
     li>a::after{
@@ -185,7 +186,7 @@ border: 1px solid #00c853;
         transform: translateY(0px);
         transition: all 0.3s ease-in-out 0s;
       }
-      li.active>a::after{
+      li>a.active::after{
         border-bottom: 4px solid #005BF2;
         transform: translateY(19px);
     }

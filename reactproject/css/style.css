@@ -218,12 +218,12 @@ hr {
   display: none;
 }
 
-.nav-pills li.active > a {
+.nav-pills li > a.active {
   font-family: 'Inter';
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  line-height: 35px;
+  line-height: 29px;
   letter-spacing: 0.05em;
   color: #005BF2;
 }
@@ -241,7 +241,7 @@ hr {
   transition: all 0.3s ease-in-out 0s;
 }
 
-.nav-pills li.active > a::after {
+.nav-pills li > a.active::after {
   border-bottom: 4px solid #005BF2;
   -webkit-transform: translateY(19px);
           transform: translateY(19px);
