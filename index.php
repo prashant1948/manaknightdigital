@@ -30,7 +30,7 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item nav-menu nav-menu-item">
-                            <a class="nav-link" href="#">Services
+                            <a class="nav-link" href="services.php">Services
                             </a>
                         </li>
                         <li class="nav-item nav-menu  nav-menu-item">
