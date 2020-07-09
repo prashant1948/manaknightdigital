@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Mobile View">
+        <title>Contact</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        
+            <!-- Book Free Consultation -->
+            <nav class="navbar book-appointment fixed-top">
+                <a href="#">Book Free Consultation</a>
+            </nav>
+
+              <!-- Image Overlay -->
+      
+          <!-- Image Overlay -->
+          <div class="card text-white banner-img banner-img-url-process">
+            <img class="card-img bitcoin-banner-img" src="./images/Home-background-img.png" alt="Bitcoin banner img">
+            <div class="card-img-overlay test">
+                <nav class="navbar navbar-expand-lg navbar-dark">
+                    <a class="navbar-brand" href="#">
+                        <img src="./images/logo.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+                        ManaKnight
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item nav-menu nav-menu-item">
+                                <a class="nav-link" href="#">Services
+                                </a>
+                            </li>
+                            <li class="nav-item nav-menu  nav-menu-item">
+                                <a class="nav-link" href="#">Process</a>
+                            </li>
+                            <li class="nav-item nav-menu  nav-menu-item">
+                                <a class="nav-link" href="#">Case Studies</a>
+                            </li>
+                            <li class="nav-item nav-menu  nav-menu-item">
+                                <a class="nav-link" href="#">Online Quote</a>
+                            </li>
+                            <li class="nav-item nav-menu  nav-menu-item  active">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <button type="button" class="btn btn-navbar desktop-view">Book Free Consultation</button>
+                </nav>
+                <div class="card-center banner-img-center banner-home-center banner-how-center">
+                    <h5 class="banner-title header-title-padding">Let’s discuss your business</i></h5>
+                    <p class="banner-text header-padding">
+                        We will reply within 24hours!                                                    </p>
+                </div>
+            </div>
+        </div>
+        
+            <div class="container margin-top-50">
+                <div class="row">
+                    <div class="col-sm col-md-12">
+                        <div class="container desktp-page-padding">   
+                            <div class="row">
+                                <h2 class="more-case-studies-heading contact-heading">Contact</h2>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+
+
+            <div class="container">
+                <div class="row desktp-page-padding">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-6">
+                    <form class="case-studies">
+                        <div class="form-group">
+                            <label for="name" class="list-about-text">Name</label>
+                            <input type="name" class="form-control contact-form-input" id="name" placeholder="Name">
+                          </div>
+                          <div class="form-group">
+                            <label for="username" class="list-about-text">Username</label>
+                            <input type="username" class="form-control contact-form-input" id="username" placeholder="Username">
+                          </div>
+                        <div class="form-group">
+                          <label for="email" class="list-about-text">Email</label>
+                          <input type="email" class="form-control contact-form-input" id="email"  placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                          <label for="password" class="list-about-text">Password</label>
+                          <input type="password" class="form-control contact-form-input" id="password" placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control contact-form-input" id="message" rows="3" placeholder="Message"></textarea>
+                          </div>
+                        <button type="submit" class="btn contact-btn">Send Message</button>
+                      </form>
+                    </div>
+                </div>
+            </div>
+        </div></div>
+
+        <nav class="footer-case-study margin-top-100">
+            <div class="footer-padding">        
+                            <div class="container padding-class">
+              
+              <div class="row">
+                  <div class="col-sm col-md-3 padding-class padding-class-btm">
+    
+                  <a class="navbar-brand" href="#">
+                      <img src="./images/logo.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+                      ManaKnight
+                  </a>   
+                  </div>
+              </div>
+              <div class="row">
+                
+    
+             <div class="col-sm col-md-4">
+             
+              <ul class="footer-links-headquarters">
+                  <li><a href="#" class="bold-title">Headquarters</a></li>
+                  <li><a href="#">424 720 King Street</a></li>
+                  <li><a href="#">Toronto, Ontario</a></li>
+                  <li><a href="#">M5V3S5, Canada</a></li>
+                  <li><a href="#">&nbsp;</a></li>
+                  <li><a href="#" class="bold-title">Office</a></li>
+                  <li><a href="#">7025 Markham Rd,</a></li>
+                  <li><a href="#">400, Markham</a></li>
+                  <li><a href="#">Ontario, L3S0C2, Canada</a></li>
+    
+              </ul>   
+             </div>
+             <div class="col-sm col-md-5">
+              <ul class="footer-links">
+                  <li><a href="#" class="bold-title">Explore</a></li>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Process</a></li>
+                  <li><a href="#">Case Studies</a></li>
+                  <li><a href="#">Online Quote</a></li>
+                  <li><a href="#">Contact</a></li>
+              </ul>  
+             </div>
+             <div class="col-sm col-md-3">
+              <ul class="footer-links">
+                  <li><a href="#" class="bold-title">Get in touch:</a></li>
+                  <li><a href="#">We want to hear from you!</a></li>
+                  <li><a href="#" class="email-underline">hello@manaknight.com</a></li>
+                  <li><a href="#">+1 (647) 783 9173</a></li>
+              </ul>  
+             </div>
+         </div>
+            
+              </div>
+    
+              <hr class="hr-footer">
+    
+          <div class="container padding-class padding-top-30 padding-top-none">
+              
+              <div class="row footer-order">
+                  <div class="col-sm col-md-9">
+    
+                      <p class="copyright-footer">&copy; 2020 All Right reserved |
+                          <a href="#">ManaKnight</a>
+                             </p>
+                  </div>
+                  <div class="col-sm col-md-3">
+                      <ul class="social-icons">
+                          <li><a href="#"><img src="./images/linkedin-social.svg"></a></li>
+                          <li><a href="#"><img src="./images/twitter.svg"></a></li>
+                          <li><a href="#"><img src="./images/facebook.svg"></a></li>
+                          <li><a href="#"><img src="./images/instagram-social.svg"></a></li>
+                      </ul>  
+                  </div>
+                  </div>
+        </div>
+    </div>
+    
+        </nav>                  
+    </body>
+</html>

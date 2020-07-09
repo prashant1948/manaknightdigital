@@ -86,6 +86,10 @@ hr{
     border: 1px solid $MKDColor; 
 }
 
+.maincontainer{
+    padding: 0px;
+    height: 60vh;
+}
 .card-head.active>.card{
 border: 1px solid #00c853;
 }
@@ -280,4 +284,3 @@ border: 1px solid #00c853;
         font-size: 14px !important;
     }
 }
-

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Mobile View">
+        <title>How Page Desktop</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        
+            <!-- Book Free Consultation -->
+            <nav class="navbar book-appointment fixed-top">
+                <a href="#">Book Free Consultation</a>
+            </nav>
+
+          <!-- Image Overlay -->
+          <div class="card text-white banner-img banner-img-url-process">
+            <img class="card-img bitcoin-banner-img" src="./images/Home-background-img.png" alt="Bitcoin banner img">
+            <div class="card-img-overlay test">
+                <nav class="navbar navbar-expand-lg navbar-dark">
+                    <a class="navbar-brand" href="#">
+                        <img src="./images/logo.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+                        ManaKnight
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item nav-menu nav-menu-item">
+                                <a class="nav-link" href="#">Services
+                                </a>
+                            </li>
+                            <li class="nav-item nav-menu  nav-menu-item">
+                                <a class="nav-link" href="#">Process</a>
+                            </li>
+                            <li class="nav-item nav-menu  nav-menu-item">
+                                <a class="nav-link" href="#">Case Studies</a>
+                            </li>
+                            <li class="nav-item nav-menu  nav-menu-item active">
+                                <a class="nav-link" href="#">Online Quote</a>
+                            </li>
+                            <li class="nav-item nav-menu  nav-menu-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <button type="button" class="btn btn-navbar desktop-view">Book Free Consultation</button>
+                </nav>
+                <div class="card-center banner-img-center banner-home-center banner-how-center">
+                    <h5 class="banner-title header-title-padding">Get a quote in 5 minutes</i></h5>
+                    <p class="banner-text header-padding">
+                        Answer few quesitons, select features you need and you’re done!
+                                                    </p>
+                </div>
+            </div>
+        </div>
+
+        
+                <div class="col-sm more-case-studies mobile-padding-none margin-top-none">
+                    <div class="container">   
+                        <div class="row">
+                            <div class="col-md-12 desktp-page-padding">
+                                <h2 class="more-case-studies-heading heading-work margin-top-50">How it works</h2>
+                            </div>
+                        </div>
+
+                        <div class="row margin-top-none">
+                            <div class="col-md-7 desktp-page-padding">
+                                 <p class="how-page-para">
+                                    It’s really simple, let us learn about what you need and get an estimate in a couple of minutes:
+                                 </p> 
+                              
+                                 <div class="how-page-para">
+                                 <div class="something">
+                                    <img src="./images/Problem-icon.svg">
+                                     </div>
+                                   <span class="how-page-span">
+                                       Answer a series of simple questions
+                                </span>                               
+                                </div>
+
+                                <div class="how-page-para">
+                                    <div class="something">
+                                        <img src="./images/Research-icon.svg">
+                                        </div>
+                                        <span class="how-page-span">  Select features and functionality you need
+                                        </span>                              
+                                </div>
+
+                                 <div class="how-page-para">
+                            <div class="something">
+                                <img src="./images/Implementation-icon.svg">
+                            </div>
+                            <span class="how-page-span third-margin"> 
+                                Choose your timeline          
+                            </span>                            
+                                </div>
+
+                                <div class="how-page-para">
+                                    <div class="something">
+                                        <img src="./images/Launch-icon.svg">
+                                    </div>
+                                    <span class="how-page-span third-margin"> 
+                                        Build your idea
+                                        </span>                              
+                                    </div>
+                                            
+                            </div>
+
+                            <div class="col-md-5 desktp-page-padding">
+                                <img src="./images/how-work-img.svg" class="img-fluid img-centre desktop-view margin-top-100" alt="Challenge Image 2">    
+                                <img src="./images/how-work-img.svg" class="img-fluid img-centre mobile-view" alt="Challenge Image 2">    
+
+                            </div>
+                        </div>
+
+
+                 </div>
+                 </div>
+
+                <div class="container padding-class  mobile-padding-50">
+                    <div class="row desktp-page-padding mobile-padding-none">
+                        <div class="card letusknow card-quote">
+                            <div class="card-body consultation-text consultation-text-mobile">
+                                <div class="container">   
+                                    <div class="row">
+        
+                                        <div class="col-md-12">            
+                                        <h5 class="how-page-consult">GET A QUOTE IN 5 MINUTES</h5>
+                                        <p class="how-page-text">
+                                            Click throught the quesions and features- it’s that simple!
+                                                                                    </p>                
+                                        <button type="button" class="btn quote-btn">START THE QUOTE PROCESS</button>
+                                        </div>
+
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <nav class="footer-case-study margin-top-100">
+                    <div class="footer-padding">        
+                                    <div class="container padding-class">
+                      
+                      <div class="row">
+                          <div class="col-sm col-md-3 padding-class padding-class-btm">
+            
+                          <a class="navbar-brand" href="#">
+                              <img src="./images/logo.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+                              ManaKnight
+                          </a>   
+                          </div>
+                      </div>
+                      <div class="row">
+                        
+            
+                     <div class="col-sm col-md-4">
+                     
+                      <ul class="footer-links-headquarters">
+                          <li><a href="#" class="bold-title">Headquarters</a></li>
+                          <li><a href="#">424 720 King Street</a></li>
+                          <li><a href="#">Toronto, Ontario</a></li>
+                          <li><a href="#">M5V3S5, Canada</a></li>
+                          <li><a href="#">&nbsp;</a></li>
+                          <li><a href="#" class="bold-title">Office</a></li>
+                          <li><a href="#">7025 Markham Rd,</a></li>
+                          <li><a href="#">400, Markham</a></li>
+                          <li><a href="#">Ontario, L3S0C2, Canada</a></li>
+            
+                      </ul>   
+                     </div>
+                     <div class="col-sm col-md-5">
+                      <ul class="footer-links">
+                          <li><a href="#" class="bold-title">Explore</a></li>
+                          <li><a href="#">Home</a></li>
+                          <li><a href="#">Services</a></li>
+                          <li><a href="#">Process</a></li>
+                          <li><a href="#">Case Studies</a></li>
+                          <li><a href="#">Online Quote</a></li>
+                          <li><a href="#">Contact</a></li>
+                      </ul>  
+                     </div>
+                     <div class="col-sm col-md-3">
+                      <ul class="footer-links">
+                          <li><a href="#" class="bold-title">Get in touch:</a></li>
+                          <li><a href="#">We want to hear from you!</a></li>
+                          <li><a href="#" class="email-underline">hello@manaknight.com</a></li>
+                          <li><a href="#">+1 (647) 783 9173</a></li>
+                      </ul>  
+                     </div>
+                 </div>
+                    
+                      </div>
+            
+                      <hr class="hr-footer">
+            
+                  <div class="container padding-class padding-top-30 padding-top-none">
+                      
+                      <div class="row footer-order">
+                          <div class="col-sm col-md-9">
+            
+                              <p class="copyright-footer">&copy; 2020 All Right reserved |
+                                  <a href="#">ManaKnight</a>
+                                     </p>
+                          </div>
+                          <div class="col-sm col-md-3">
+                              <ul class="social-icons">
+                                  <li><a href="#"><img src="./images/linkedin-social.svg"></a></li>
+                                  <li><a href="#"><img src="./images/twitter.svg"></a></li>
+                                  <li><a href="#"><img src="./images/facebook.svg"></a></li>
+                                  <li><a href="#"><img src="./images/instagram-social.svg"></a></li>
+                              </ul>  
+                          </div>
+                          </div>
+                </div>
+            </div>
+            
+                </nav>
+            
+        
+      
+    </body>
+</html>

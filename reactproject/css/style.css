@@ -111,6 +111,11 @@ hr {
   border: 1px solid #FFFFFF;
 }
 
+.maincontainer {
+  padding: 0px;
+  height: 60vh;
+}
+
 .card-head.active > .card {
   border: 1px solid #00c853;
 }
