@@ -34,16 +34,16 @@
                             </a>
                         </li>
                         <li class="nav-item nav-menu  nav-menu-item">
-                            <a class="nav-link" href="#">Process</a>
+                            <a class="nav-link" href="process-page.php">Process</a>
                         </li>
                         <li class="nav-item nav-menu  nav-menu-item">
-                            <a class="nav-link" href="#">Case Studies</a>
+                            <a class="nav-link" href="case-study.php">Case Studies</a>
                         </li>
                         <li class="nav-item nav-menu  nav-menu-item">
-                            <a class="nav-link" href="#">Online Quote</a>
+                            <a class="nav-link" href="how-page.php">Online Quote</a>
                         </li>
                         <li class="nav-item nav-menu  nav-menu-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="contact.php">Contact</a>
                         </li>
                     </ul>
                 </div>
